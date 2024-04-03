@@ -24,16 +24,16 @@ This project contains automated tests for Stack Overflow using Playwright. It in
     - Search for the "typescript" tag.
     - Assert the success of the search process.
 
+By default, the tests will run on **Chromium** with `headless: false` mode.
+
 ## Installation
 
 1. Clone this repository:
-
    git clone https://github.com/De-vidas/QA_Test.git
 
-2. Install dependencies:
+3. Install dependencies:
     npm install
 
-Usage
+## Usage
 Run the tests using the following command:
-
-  npx playwright test
+    npx playwright test
