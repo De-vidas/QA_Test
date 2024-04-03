@@ -31,9 +31,11 @@ By default, the tests will run on **Chromium** with `headless: false` mode.
 1. Clone this repository:
    git clone https://github.com/De-vidas/QA_Test.git
 
-3. Install dependencies:
-    npm install
+2. Install dependencies:
+
+        npm install
 
 ## Usage
 Run the tests using the following command:
-    npx playwright test
+    
+      npx playwright test
